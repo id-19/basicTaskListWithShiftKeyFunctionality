@@ -1,0 +1,39 @@
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+input{
+    height:2vh;
+    width:2vh;
+    padding: 1rem 2rem;
+}
+#task-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80vw;
+    margin: 0 10vh;
+}
+/* th,td{
+    border: solid 4px black;
+    border-collapse: collapse;
+    margin:0;
+    border-spacing: 0;
+} */
+table{
+    border: solid black 2px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px 0px;
+}
+.checkboxes{
+    border-right: solid black 2px;
+}
+td{
+    padding:1.5rem 2rem;
+}
+
