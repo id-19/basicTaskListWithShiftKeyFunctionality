@@ -9,9 +9,9 @@ const handleChange = (taskID) => {
 	// console.log(shiftPress);
 	if (shiftPress) {
 		for (i = 1; i < taskNum; i++) {
-			// inputElements[i - 1].checked = true;
+			inputElements[i - 1].checked = true;
 			// console.log(i);
-			inputElements[i - 1].checked = !inputElements[i - 1].checked;
+			// inputElements[i - 1].checked = inputElements[taskNum - 1].checked;
 		}
 		// inputElements[taskNum].checked = !inputElements[taskNum].checked;
 	}
